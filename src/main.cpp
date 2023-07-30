@@ -3,7 +3,7 @@
 #include <mcp2515.h>
 
 struct can_frame  canMsg;
-MCP2515           mcp2515(18);
+MCP2515           mcp2515(5);
 bool              showDump;
 
 
